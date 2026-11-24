@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #b57aff;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #6a0dad;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    color: #b57aff;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b57aff;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.hero {
+    background-color: #000000;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #b57aff;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #b57aff;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6a0dad;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #8a2be2;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.tips {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.tips h2 {
+    text-transform: uppercase;
+}
+
+.tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tip-card {
+    background-color: #111111;
+    border: 1px solid #6a0dad;
+    width: 220px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.tip-card h3 {
+    color: #b57aff;
+    text-transform: uppercase;
+}
+
+.fun-fact {
+    background-color: #111111;
+    border-top: 1px solid #6a0dad;
+    border-bottom: 1px solid #6a0dad;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.fun-fact h2 {
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #000000;
+    color: #b57aff;
+    text-align: center;
+    padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .tip-card {
+        width: 85%;
+    }
+}
