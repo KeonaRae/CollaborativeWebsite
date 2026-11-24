@@ -2,54 +2,65 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fff8f0;
-    color: #49352b;
+    background-color: #000000;
+    color: #b57aff;
 }
 
 header {
-    background-color: #e9bfa5;
+    background-color: #000000;
     padding: 20px;
     text-align: center;
+    border-bottom: 1px solid #6a0dad;
 }
 
 header h1 {
     margin: 0 0 15px;
-    color: #5c3828;
+    color: #b57aff;
+    text-transform: uppercase;
 }
 
 nav a {
     text-decoration: none;
-    color: #49352b;
+    color: #b57aff;
     margin: 0 15px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 nav a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .hero {
-    background-color: #f5d6c3;
+    background-color: #000000;
     text-align: center;
     padding: 80px 20px;
 }
 
 .hero h2 {
     font-size: 36px;
+    text-transform: uppercase;
+    color: #b57aff;
 }
 
 .hero p {
     font-size: 18px;
+    color: #b57aff;
 }
 
 .button {
     display: inline-block;
-    background-color: #a66b4f;
+    background-color: #6a0dad;
     color: white;
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 20px;
     margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #8a2be2;
 }
 
 .intro {
@@ -59,10 +70,13 @@ nav a:hover {
     margin: auto;
 }
 
-/* Cat Care Tips */
 .tips {
     text-align: center;
     padding: 40px 20px;
+}
+
+.tips h2 {
+    text-transform: uppercase;
 }
 
 .tips-container {
@@ -73,28 +87,39 @@ nav a:hover {
 }
 
 .tip-card {
-    background-color: #f8e5d8;
+    background-color: #111111;
+    border: 1px solid #6a0dad;
     width: 220px;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
 .tip-card h3 {
-    color: #8b573e;
+    color: #b57aff;
+    text-transform: uppercase;
 }
 
 .fun-fact {
-    background-color: #e9bfa5;
+    background-color: #111111;
+    border-top: 1px solid #6a0dad;
+    border-bottom: 1px solid #6a0dad;
     text-align: center;
     padding: 35px 20px;
 }
 
+.fun-fact h2 {
+    text-transform: uppercase;
+}
+
 footer {
-    background-color: #49352b;
-    color: white;
+    background-color: #000000;
+    color: #b57aff;
     text-align: center;
     padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
